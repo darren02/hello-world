@@ -1,14 +1,20 @@
 
+* {
+    box-sizing: border-box
+}
 body {
-    background:orangered;
+    background:#313030;
     font-family: sans-serif;
     margin: 0;
     font-size: 1em;
     line-height: 1.5;
+    border:30px solid #D30000;
+    text-align: center;
+    margin: auto
+
 }
 h1 {
     color: rgb(145, 248, 0);
-    background-color:whitesmoke;
     font-size: 62px;
     text-align: center;
     text-transform: capitalize;
@@ -33,10 +39,11 @@ p {
 }
 
 .main-header {
-    background-color:whitesmoke;
+    background-color: #088E00;
     text-align: left;
     font-size: 15px;
     font-weight: normal;
+    height: 250px
 }
 
 a:link {
